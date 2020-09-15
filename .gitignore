@@ -5,3 +5,7 @@ node_modules
 .idea/workspace.xml
 /client/.idea/
 /client/.next/
+/client/dessert-finder.pem
+.env
+.next
+node_modules
