@@ -11,6 +11,7 @@ const map = observable({    // C R U D
   data:null,
   dataTwo:null,
   dataC: action(async (data) => {
+    console.log('f mobx, map dataC, data');
     const result = await axios.get(`http://localhost:4000/search/blog.json?data=${data}`)
     map.data=result.data.items
 
